@@ -1,0 +1,16 @@
+.featured {
+	width: 400px;
+	height: 400px;
+	display: block;
+	margin: auto;
+}
+
+.gallery {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.thumb {
+	width: 100px;
+	height: 100px;
+}

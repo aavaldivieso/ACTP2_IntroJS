@@ -10,8 +10,32 @@ Tip: Investigar el evento window.onload
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
   </head>
   <body>
+  	<h1>iuju</h1>
+  	<img class="featured" src="assets/imgs/ilus1.jpg" alt="">
 
+	<div class="gallery">
+		<img class="thumb" src="assets/imgs/ilus1.jpg" alt="">
+		<img class="thumb" src="assets/imgs/ilus1.jpg" alt="">
+		<img class="thumb" src="assets/imgs/ilus1.jpg" alt="">
+		<img class="thumb" src="assets/imgs/ilus1.jpg" alt="">
+		<img class="thumb" src="assets/imgs/ilus1.jpg" alt="">
+		<img class="thumb" src="assets/imgs/ilus1.jpg" alt="">
+	</div>
+
+  	
+  	<script>
+  	
+  		$(function(){
+  			alert("imágenes cargadas");
+  		});
+
+  		window.onload = function(){
+  			alert("antes de la carga");
+  		};
+  	</script>
   </body>
 </html>
